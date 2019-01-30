@@ -7,7 +7,6 @@ from PIL import Image
 from time import sleep
 import pytesseract
 
-
 class AviParseSpider(scrapy.Spider):
     name = 'avi_parse'
     start_urls = ['https://www.avito.ru/ryazan/kvartiry/sdam/na_dlitelnyy_srok?s_trg=4&user=1/']
